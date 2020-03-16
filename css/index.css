@@ -70,15 +70,15 @@ a {
  ***Media Queries for Top Nav and Welcome Note***
  **********************************************************************/
  @media screen and (max-width: 600px) {
-  .mqin-nav a {
+  .main-nav a {
     float: none;
     width: 100%;
-    font-size: 20%;
+    font-size: 10px;
   }
 }
 @media screen and (min-width: 600px) {
   .topmenugreeting {
-    font-size: 20px;
+    font-size: 10px;
   }
 }
 /***********************************************************************
