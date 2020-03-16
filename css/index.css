@@ -1,5 +1,5 @@
 /*Background Styling*/
-.landingpage {
+body {
 	background-image: url('images/starsky.jpg');
 	/*background-color: #000080; For Demonstartion */
 	color: white;
