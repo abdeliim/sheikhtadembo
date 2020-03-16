@@ -1,0 +1,23 @@
+{
+  "language": "generic",
+  "os": [
+    "linux"
+  ],
+  "dist": "trusty",
+  "deploy": [
+    {
+      "provider": "pages",
+      "strategy": "git",
+      "skip_cleanup": true,
+      "keep_history": true,
+      "on": {
+        "branch": [
+          "master"
+        ]
+      },
+      "token": "$abdel"
+    }
+  ]
+}
+
+#added a comment#
