@@ -1,6 +1,6 @@
 /*Background Styling*/
 body {
-	background-image: url('images/starsky.jpg');
+	background-image: url('../images/starsky.jpg');
 	/*background-color: #000080; For Demonstartion */
 	color: white;
 }
