@@ -73,11 +73,12 @@ a {
   .mqin-nav a {
     float: none;
     width: 100%;
+    font-size: 20%;
   }
 }
 @media screen and (min-width: 600px) {
   .topmenugreeting {
-    font-size: 50px;
+    font-size: 20px;
   }
 }
 /***********************************************************************
