@@ -1,14 +1,13 @@
 /*Background Styling*/
 body {
 	background-image: url('../images/starsky.jpg');
-	/*background-color: #000080; For Demonstartion */
 	color: white;
 }
 
 /***********************************************************************
  *  ***Top Navigation Menu Styling***
  **********************************************************************/
-/*.main-nav {
+.main-nav {
     display: flex;
     list-style: none;
     margin: 0;
@@ -67,6 +66,20 @@ a {
     padding-top: 70px;
 }
 
+/***********************************************************************
+ ***Media Queries for Top Nav and Welcome Note***
+ **********************************************************************/
+ @media screen and (max-width: 600px) {
+  .mqin-nav a {
+    float: none;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 600px) {
+  .topmenugreeting {
+    font-size: 50px;
+  }
+}
 /***********************************************************************
  *  ***Top Column Styling***
  **********************************************************************/
