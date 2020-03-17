@@ -72,7 +72,7 @@ a {
 }
 
 /***********************************************************************
-                  ***Menu Bar Media Queriess***
+                  ***Menu Bar Media Queries***
  **********************************************************************/
 
 @media screen and (max-width: 992px){
@@ -98,8 +98,90 @@ a {
 @media screen and (max-width: 600px){
 	.topmenugreeting
 	{
-		font-size: 1em;
-		margin-top: 28%;
+		font-size: 1.2em;
+		margin-top: 31%;
+	}
+
+}
+
+/***********************************************************************
+                  ***Top Column Styling***
+ **********************************************************************/
+
+ .toprow {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.topcolumn1 {
+  float: left;
+  background-image: url(/c:/users/deyguard/desktop/dembo/images/quran.gif);
+}
+
+.topcolumn2{
+  float: left;
+  width: 60%;
+  height: 300px; 
+  padding-left: 25px;
+}
+
+.p1 {
+  
+  text-align: center;
+  font-family:  Helvetica, Verdana, Arial, sans-serif;
+  font-size: 1em;
+  font-weight: bolder;
+  font-style: italic;
+
+}
+
+.toprow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.welcometext{
+  text-align: center;
+  color: black;
+  font-family: cursive;
+  font-weight: bolder;
+  font-size: 3em;
+  text-shadow: 4px 4px 8px #FF0000;
+  font-style: italic;
+
+}
+
+/***********************************************************************
+                  ***Top Column Media Queries***
+ **********************************************************************/
+
+@media screen and (max-width: 992px){
+	.p1
+	{
+		font-size: 0.8em;
+	}
+}
+@media screen and (max-width: 600px){
+	.p1
+	{
+		font-size: 0.5em;
+	}
+
+}
+
+@media screen and (max-width: 992px){
+	.welcometext
+	{
+		font-size: 2em;
+		margin-top: 10%;
+	}
+}
+@media screen and (max-width: 600px){
+	.welcometext
+	{
+		font-size: 1.5em;
+		margin-top: 10%;
 	}
 
 }
