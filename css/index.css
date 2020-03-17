@@ -115,7 +115,7 @@ a {
 
 .topcolumn1 {
   float: left;
-  background-image: url(/c:/users/deyguard/desktop/dembo/images/quran.gif);
+  background-image: url('../images/quran.gif');
 }
 
 .topcolumn2{
@@ -129,7 +129,7 @@ a {
   
   text-align: center;
   font-family:  Helvetica, Verdana, Arial, sans-serif;
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: bolder;
   font-style: italic;
 
