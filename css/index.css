@@ -195,6 +195,13 @@ a {
   font-style: italic;
 
 }
+
+.c2-contact
+	{
+		font-family: cursive;
+		font-size: 2em;
+		color: magenta;
+	}
 /***********************************************************************
                   ***Second  Column Media Queries***
  **********************************************************************/
@@ -247,6 +254,14 @@ a {
   text-shadow: 4px 4px 8px magenta;
 	}
 
+.jinn-text
+	{
+		font-family: cursive;
+		font-size: 1.5em;
+		color: magenta;
+		text-align: center;
+		margin-top: 50%;
+	}
  
 
 @media screen and (max-width: 600px){
@@ -255,6 +270,16 @@ a {
 		width: 100%;
 	}
 
+}
+
+
+@media screen and (max-width: 600px)
+{
+
+.third-container1 {
+		height: 650px;
+		width: 50%;
+					}
 }
 
 
@@ -314,3 +339,9 @@ input[type=submit]:hover {
   border-radius: 2.5px;
   padding: 10px;
 }
+.f1 
+	{
+		font-family: cursive;
+		font-size: 0.8em;
+		font-weight: bolder;
+	}
