@@ -213,3 +213,20 @@ a {
 
 }
 
+/***********************************************************************
+                  ***Third Column Styling***
+ **********************************************************************/
+
+.third-column
+ {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px){
+	.third-column
+	{
+		width: 100%;
+	}
+
+}
