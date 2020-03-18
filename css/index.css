@@ -42,7 +42,7 @@ a {
 .nav-menu {
     cursor:pointer;
     color:#FFF;
-    font-size:1.8em;
+    font-size:1.5em;
     border-radius:2px;
     transition: all 0.3s linear;
 }
@@ -355,7 +355,6 @@ input[type=submit]:hover {
 
 .fourth-column {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .fourth-container1 {
@@ -373,10 +372,11 @@ input[type=submit]:hover {
 .c4i {
 	border-radius: 2px;
 	width: 200px;
-	height:300px;
+	height:15em;
 	float: left;
 
 }
+
 
 .c4p {
 
@@ -384,6 +384,116 @@ input[type=submit]:hover {
   font-size: 1.3em;
   font-weight: bolder;
   font-style: italic;
-  height: 400px;
+  height: 22em;
 
+}
+
+.container6 {
+  border-radius: 2.5px;
+  padding: 10px;
+}
+
+
+
+
+.row6 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#column6 {
+  flex: 50%;
+  padding-top: 15px;
+
+}
+
+#column7 {
+  flex: 50%;
+  padding-top: 15px;
+}
+
+/***********************************************************************
+ *  *** Bottom Column and Footer Styling ***
+ **********************************************************************/
+
+/* Fake image */
+.sheikhimg {
+  width: 100%;
+  padding: 20px;
+}
+
+.tadembo {
+  margin-left: 15%;
+  width: 30%;
+  height: 80%;
+}
+.name{
+  font-size: 50px;
+}
+
+.footer {
+  padding: 5px;
+  background-color: black;
+  padding-top: 4px;
+  padding-bottom: 10px;
+
+}
+
+.main-nav1 {
+display: flex;
+list-style: none;
+margin: 0;
+font-size: 0.5em;
+cursor:pointer;
+color:#FFF;
+font-size:3em;
+border-radius:2px;
+transition: all 0.3s linear;
+font-size: 18px;
+position: relative;
+top: 3px;
+text-align: center;
+width: 21px;
+}
+
+.icons {
+  margin-right: auto;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  padding-top: 3px;
+  }
+
+.icons:hover {
+  opacity: 0.7;
+}
+
+.attribution
+{
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+.fp {
+
+  border-radius: 5px;
+  float: right;
+  padding: 70px;
+  text-align: center;
+  font-family: cursive;
+  font-size: 1.3em;
+
+}
+
+.fps {
+  color: magenta;
+}
+.fh2 {
+  font-size: 40px;
+  font-family: sans-serif, arial;
 }
