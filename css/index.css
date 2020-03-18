@@ -345,3 +345,45 @@ input[type=submit]:hover {
 		font-size: 0.8em;
 		font-weight: bolder;
 	}
+
+
+/***********************************************************************
+                  ***Fourth Column Styling ***
+ **********************************************************************/
+
+
+
+.fourth-column {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fourth-container1 {
+  flex: 50%;
+  margin-top: 5%;
+
+}
+
+.fourth-container2 {
+  flex: 50%;
+  margin-top: 2.5%;
+  
+}
+
+.c4i {
+	border-radius: 2px;
+	width: 200px;
+	height:300px;
+	float: left;
+
+}
+
+.c4p {
+
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: 1.3em;
+  font-weight: bolder;
+  font-style: italic;
+  height: 400px;
+
+}
