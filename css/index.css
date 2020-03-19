@@ -3,145 +3,120 @@
  **********************************************************************/
 
 body {
-	background-image: url('../images/starsky.jpg');
-	color: white;
+  background-image: url('../images/starsky.jpg');
+  color: white;
 }
-
-
 /***********************************************************************
                   ***Menu Bar Styling***
  **********************************************************************/
- .main-nav {
 
-    display: flex;
-    list-style: none;
-    margin: 0;
-    flex-wrap: wrap;
+.main-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  flex-wrap: wrap;
 }
-
 li {
-    padding: 20px;
-    font-family: Verdana, Helvetica, Arial, sans-serif;
+  padding: 20px;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
 }
-
 a {
-    color: #f5f5f6;
-    text-decoration: none;
+  color: #f5f5f6;
+  text-decoration: none;
 }
-
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
-  max-width:100%;
+  max-width: 100%;
 }
 .menu-list {
-    margin-left: auto;
+  margin-left: auto;
 }
-
 .nav-menu {
-    cursor:pointer;
-    color:#FFF;
-    font-size:1.5em;
-    border-radius:2px;
-    transition: all 0.3s linear;
+  cursor: pointer;
+  color: #FFF;
+  font-size: 1.5em;
+  border-radius: 2px;
+  transition: all 0.3s linear;
 }
-
-.main-nav{
-    background-color:#000;
+.main-nav {
+  background-color: #000;
 }
-
-.nav-menu .main-nav .menu-list:not(.btn) i.fa{
-    position: relative;
-    top: 3px;
-    text-align: center;
-    width: 21px;
-    padding-right: 100px;
+.nav-menu .main-nav .menu-list:not(.btn) i.fa {
+  position: relative;
+  top: 3px;
+  text-align: center;
+  width: 21px;
+  padding-right: 100px;
 }
-
 .topmenugreeting {
-
-    font-family:Tangerine;
-    font-size: 3em;
-    text-shadow: 2px 2px 2px #000;
-    transition: all 5s;
-    color: magenta;
-    text-align: center;
-    background-color: black;
-    margin-top: 6%;
+  font-family: Tangerine;
+  font-size: 3em;
+  text-shadow: 2px 2px 2px #000;
+  transition: all 5s;
+  color: magenta;
+  text-align: center;
+  background-color: black;
+  margin-top: 5%;
 }
-
 /***********************************************************************
                   ***Menu Bar Media Queries***
  **********************************************************************/
 
-@media screen and (max-width: 992px){
-	.nav-menu{
-		font-size: 1.5em;
-	}
+@media screen and (max-width: 992px) {
+  .nav-menu {
+    font-size: 1.5em;
+  }
 }
-@media screen and (max-width: 600px){
-	.nav-menu
-	{
-		font-size: 1em;
-	}
-
+@media screen and (max-width: 600px) {
+  .nav-menu {
+    font-size: 1em;
+  }
 }
-
-@media screen and (max-width: 992px){
-	.topmenugreeting
-	{
-		font-size: 2.2em;
-		margin-top: 20%;
-	}
+@media screen and (max-width: 992px) {
+  .topmenugreeting {
+    font-size: 2.2em;
+    margin-top: 20%;
+  }
 }
-@media screen and (max-width: 600px){
-	.topmenugreeting
-	{
-		font-size: 1.2em;
-		margin-top: 31%;
-	}
-
+@media screen and (max-width: 600px) {
+  .topmenugreeting {
+    font-size: 1.2em;
+    margin-top: 31%;
+  }
 }
-
 /***********************************************************************
                   ***Top Column Styling***
  **********************************************************************/
 
- .toprow {
+.toprow {
   display: flex;
   flex-wrap: wrap;
 }
-
 .topcolumn1 {
   float: left;
   background-image: url('../images/quran.gif');
 }
-
-.topcolumn2{
+.topcolumn2 {
   float: left;
   width: 60%;
-  height: 300px; 
+  height: 300px;
   padding-left: 25px;
 }
-
 .p1 {
-  
   text-align: center;
-  font-family:  Helvetica, Verdana, Arial, sans-serif;
+  font-family: Helvetica, Verdana, Arial, sans-serif;
   font-size: 1.2em;
   font-weight: bolder;
   font-style: italic;
-
 }
-
 .toprow:after {
   content: "";
   display: table;
   clear: both;
 }
-
-.welcometext{
+.welcometext {
   text-align: center;
   color: black;
   font-family: cursive;
@@ -149,179 +124,160 @@ a {
   font-size: 3em;
   text-shadow: 4px 4px 8px #FF0000;
   font-style: italic;
-
 }
-
 /***********************************************************************
                   ***Top Column Media Queries***
  **********************************************************************/
 
-@media screen and (max-width: 992px){
-	.p1
-	{
-		font-size: 0.8em;
-	}
+@media screen and (max-width: 992px) {
+  .p1 {
+    font-size: 0.8em;
+  }
 }
-@media screen and (max-width: 600px){
-	.p1
-	{
-		font-size: 0.5em;
-	}
-
+@media screen and (max-width: 600px) {
+  .p1 {
+    font-size: 0.5em;
+  }
 }
-
-@media screen and (max-width: 992px){
-	.welcometext
-	{
-		font-size: 2em;
-		margin-top: 10%;
-	}
+@media screen and (max-width: 992px) {
+  .welcometext {
+    font-size: 2em;
+    margin-top: 10%;
+  }
 }
-@media screen and (max-width: 600px){
-	.welcometext
-	{
-		font-size: 1.5em;
-		margin-top: 10%;
-	}
-
+@media screen and (max-width: 600px) {
+  .welcometext {
+    font-size: 1.5em;
+    margin-top: 10%;
+  }
 }
-
 .p2 {
-
   text-align: center;
   font-family: Verdana, Helvetica, Arial, sans-serif;
   font-size: 1.4em;
   font-weight: bolder;
   font-style: italic;
-
 }
-
-.c2-contact
-	{
-		font-family: cursive;
-		font-size: 2em;
-		color: magenta;
-	}
+.c2-contact {
+  font-family: cursive;
+  font-size: 2em;
+  color: magenta;
+}
 /***********************************************************************
                   ***Second  Column Media Queries***
  **********************************************************************/
 
-@media screen and (max-width: 992px){
-	.p2
-	{
-		font-size: 1.2em;
-	}
+@media screen and (max-width: 992px) {
+  .p2 {
+    font-size: 1.2em;
+  }
 }
-@media screen and (max-width: 600px){
-	.p2
-	{
-		font-size: 1em;
-	}
-
+@media screen and (max-width: 600px) {
+  .p2 {
+    font-size: 1em;
+  }
 }
-
- /***********************************************************************
+/***********************************************************************
                   ***Third Column Styling***
  **********************************************************************/
 
-.third-column
- {
+.third-column {
   display: flex;
   flex-wrap: wrap;
   border-radius: 2.5px;
 }
-
 .third-container1 {
   flex: 50%;
   background-image: url('../images/jinn.jpg');
-
-
 }
-
-
 .third-container2 {
   flex: 50%;
- 
 }
-
-.thirdh6
-	{
+.thirdh6 {
   font-weight: bolder;
   font-size: 0.8em;
-  font-family:'Monaco';
+  font-family: 'Monaco';
   text-align: center;
   background-color: black;
   text-shadow: 4px 4px 8px magenta;
-	}
-
-.jinn-text
-	{
-		font-family: cursive;
-		font-size: 1.5em;
-		color: magenta;
-		text-align: center;
-		margin-top: 50%;
-	}
- 
-
-@media screen and (max-width: 600px){
-	.third-column
-	{
-		width: 100%;
-	}
-
 }
-
-
-@media screen and (max-width: 600px)
-{
-
-.third-container1 {
-		height: 650px;
-		width: 50%;
-					}
+.jinn-text {
+  font-family: cursive;
+  font-size: 1.5em;
+  color: magenta;
+  text-align: center;
+  margin-top: 50%;
 }
-
-
- /***********************************************************************
+@media screen and (max-width: 600px) {
+  .third-column {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .third-container1 {
+    height: 650px;
+    width: 50%;
+  }
+}
+/***********************************************************************
                   ***Contact Form Styling ***
  **********************************************************************/
 
 /* Style inputs with type="text", select elements and textareas */
+
 input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
 }
-
 #phone {
-	width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
 }
-
 #email {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
 }
-
 /* Style the submit button with a specific background color etc */
+
 input[type=submit] {
   background-color: #4CAF50;
   color: white;
@@ -330,8 +286,8 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
 }
-
 /* When moving the mouse over the submit button, add a darker green color */
+
 input[type=submit]:hover {
   background-color: #45a049;
 }
@@ -339,123 +295,94 @@ input[type=submit]:hover {
   border-radius: 2.5px;
   padding: 10px;
 }
-.f1 
-	{
-		font-family: cursive;
-		font-size: 0.8em;
-		font-weight: bolder;
-	}
-
-
+.f1 {
+  font-family: cursive;
+  font-size: 0.8em;
+  font-weight: bolder;
+}
 /***********************************************************************
                   ***Fourth Column Styling ***
  **********************************************************************/
 
-
-
 .fourth-column {
   display: flex;
 }
-
 .fourth-container1 {
   flex: 50%;
   margin-top: 5%;
-
 }
-
 .fourth-container2 {
   flex: 50%;
   margin-top: 2.5%;
-  
 }
-
 .c4i {
-	border-radius: 2px;
-	width: 200px;
-	height:15em;
-	float: left;
-
+  border-radius: 2px;
+  width: 200px;
+  height: 15em;
+  float: left;
 }
-
-
 .c4p {
-
   font-family: Verdana, Helvetica, Arial, sans-serif;
   font-size: 1.3em;
   font-weight: bolder;
   font-style: italic;
   height: 22em;
-
 }
-
 .container6 {
   border-radius: 2.5px;
   padding: 10px;
 }
-
-
-
-
 .row6 {
   display: flex;
   flex-wrap: wrap;
 }
-
 #column6 {
   flex: 50%;
   padding-top: 15px;
-
 }
-
 #column7 {
   flex: 50%;
   padding-top: 15px;
 }
-
 /***********************************************************************
- *  *** Bottom Column and Footer Styling ***
+                  *** Bottom Column and Footer Styling ***
  **********************************************************************/
 
-/* Fake image */
 .sheikhimg {
   width: 100%;
   padding: 20px;
 }
-
 .tadembo {
   margin-left: 15%;
   width: 30%;
   height: 80%;
 }
-.name{
+.name {
   font-size: 50px;
 }
-
 .footer {
-  padding: 5px;
   background-color: black;
-  padding-top: 4px;
-  padding-bottom: 10px;
-
 }
-
 .main-nav1 {
-display: flex;
-list-style: none;
-margin: 0;
-font-size: 0.5em;
-cursor:pointer;
-color:#FFF;
-font-size:3em;
-border-radius:2px;
-transition: all 0.3s linear;
-font-size: 18px;
-position: relative;
-top: 3px;
-text-align: center;
-width: 21px;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  font-size: 1.2em;
+  cursor: pointer;
+  color: #FFF;
+  border-radius: 2px;
+  transition: all 0.3s linear;
+  position: relative;
+  top: 3px;
+  text-align: center;
+  width: 21px;
 }
-
+.push1:hover {
+  opacity: 0.7;
+  color: red;
+  font-family: cursive;
+  font-size: 1.3em;
+}
 .icons {
   margin-right: auto;
   padding: 20px;
@@ -465,35 +392,31 @@ width: 21px;
   text-decoration: none;
   margin: 5px 2px;
   padding-top: 3px;
-  }
-
+}
 .icons:hover {
   opacity: 0.7;
+  color: blue;
 }
-
-.attribution
-{
+.attribution {
   font-weight: bolder;
-  font-size: 20px;
+  font-size: 1.5em;
   text-align: center;
   color: white;
+  font-family: cursive;
 }
-
 .fp {
-
   border-radius: 5px;
   float: right;
   padding: 70px;
   text-align: center;
   font-family: cursive;
-  font-size: 1.3em;
-
+  font-size: 1.5em;
 }
-
 .fps {
   color: magenta;
 }
 .fh2 {
-  font-size: 40px;
-  font-family: sans-serif, arial;
+  font-size: 3em;
+  font-family: cursive;
+  color: magenta;
 }
