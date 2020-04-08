@@ -1,0 +1,225 @@
+/***********************************************************************
+                  ***Background Image Sylingsss***
+ **********************************************************************/
+
+body {
+  background-image: url('../images/starsky.jpg');
+  color: white;
+}
+/***********************************************************************
+                  ***Menu Bar Styling***
+ **********************************************************************/
+
+.main-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  flex-wrap: wrap;
+}
+li {
+  padding: 20px;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  margin-left: 5%;
+  font-size: 1.2em;
+}
+a {
+  color: #f5f5f6;
+  text-decoration: none;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 100%;
+}
+.menu-list {
+  margin-left: auto;
+}
+.nav-menu {
+  cursor: pointer;
+  color: #FFF;
+  font-size: 1.5em;
+  border-radius: 2px;
+  transition: all 0.3s linear;
+}
+.main-nav {
+  background-color: #000;
+}
+.nav-menu .main-nav .menu-list:not(.btn) i.fa {
+  position: relative;
+  top: 3px;
+  text-align: center;
+  width: 21px;
+  padding-right: 100px;
+}
+.headline {
+  text-align: center;
+  font-family: cursive;
+  font-weight: bolder;
+  color: magenta;
+}
+.post_content {
+  font-weight: bolder;
+  font-size: 1.3em;
+}
+.prime {
+  text-align: center;
+  font-family: cursive;
+  color: magenta;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+.wt {
+  font-family: cursive;
+  color: green;
+  font-weight: bolder;
+}
+.wtp {
+  font-size: 1.3em;
+  font-family: sans-serif;
+}
+.ulabout {
+  font-family: cursive;
+  color: magenta;
+  font-size: 2em;
+  font-weight: bolder;
+}
+.afc {
+  font-family: cursive;
+  color: magenta;
+  font-size: 2em;
+  font-weight: bolder;
+}
+.bcolumn {
+  display: flex;
+  flex-wrap: wrap;
+}
+.fimg {
+  flex: 50%;
+  border-radius: 2px;
+}
+.afc {
+  flex: 50%;
+  border-radius: 2px;
+}
+.acf {
+  background-color: black;
+}
+.pfimg {
+  width: 80%;
+  height: 40em;
+}
+/***********************************************************************
+                  ***Contact Form Styling ***
+ **********************************************************************/
+
+/* Style inputs with type="text", select elements and textareas */
+
+input[type=text], select, textarea {
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+}
+#phone {
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+}
+#email {
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+}
+/* Style the submit button with a specific background color etc */
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* When moving the mouse over the submit button, add a darker green color */
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+/***********************************************************************
+                  ***Footer  Styling ***
+ **********************************************************************/
+
+.footer {
+  background-color: black;
+  margin-top: 5%;
+}
+.main-nav1 {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  font-size: 1.2em;
+  cursor: pointer;
+  color: #FFF;
+  border-radius: 2px;
+  transition: all 0.3s linear;
+  position: relative;
+  top: 3px;
+  text-align: center;
+  width: 21px;
+}
+.push1:hover {
+  opacity: 0.7;
+  color: red;
+  font-family: cursive;
+  font-size: 1.3em;
+}
+.icons {
+  font-size: 30px;
+}
+.icons:hover {
+  opacity: 0.7;
+  color: blue;
+}
+.attribution {
+  font-weight: bolder;
+  font-size: 1.5em;
+  text-align: center;
+  color: white;
+  font-family: cursive;
+}
