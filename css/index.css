@@ -1,9 +1,9 @@
 /***********************************************************************
-                  ***Background Image Sylingsss***
+                  ***Background Image Styling***
  **********************************************************************/
 
 body {
-  background-image: url('../images/starsky.jpg');
+  background-image: url('../images/African_Spiritual_Healer_UK_London.jpg');
   color: white;
 }
 /***********************************************************************
@@ -52,13 +52,18 @@ a {
 }
 .topmenugreeting {
   font-family: Tangerine;
-  font-size: 3em;
-  text-shadow: 2px 2px 2px #000;
-  transition: all 5s;
+  font-size: 1.5em;
+  font-weight: bolder;
   color: magenta;
   text-align: center;
   background-color: black;
-  margin-top: 5%;
+  margin-top: 5.5%;
+}
+
+.italize {
+  font-family: italic;
+  font-weight: bolder;
+  color: magenta;
 }
 /***********************************************************************
                   ***Menu Bar Media Queries***
@@ -96,7 +101,7 @@ a {
 }
 .topcolumn1 {
   float: left;
-  background-image: url('../images/quran.gif');
+  background-image: url('../images/Spiritual_healer.gif');
 }
 .topcolumn2 {
   float: left;
@@ -191,7 +196,7 @@ a {
 }
 .third-container1 {
   flex: 50%;
-  background-image: url('../images/jinn.jpg');
+  background-image: url('../images/Spiritual_jinn.jpg');
 }
 .third-container2 {
   flex: 50%;

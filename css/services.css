@@ -1,9 +1,9 @@
 /***********************************************************************
-                  ***Background Image Sylingsss***
+                  ***Background Image Stylingsss***
  **********************************************************************/
 
 body {
-  background-image: url('../images/starsky.jpg');
+  background-image: url('../images/African_Spiritual_Healer_UK_London.jpg');
   color: white;
 }
 /***********************************************************************
@@ -129,4 +129,17 @@ a {
   text-align: center;
   color: white;
   font-family: cursive;
+}
+.italize {
+  font-family: italic;
+  font-weight: bolder;
+  color: magenta;
+}
+.topic {
+  font-family: Tangerine;
+  font-weight: bolder;
+  color: magenta;
+  text-align: center;
+  background-color: black;
+  word-spacing: 10px;
 }

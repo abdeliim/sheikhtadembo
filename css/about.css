@@ -1,11 +1,11 @@
 /***********************************************************************
                   ***Background Image Sylingsss***
  **********************************************************************/
-
 body {
-  background-image: url('../images/starsky.jpg');
+  background-image: url('../images/African_Spiritual_Healer_UK_London.jpg');
   color: white;
 }
+
 /***********************************************************************
                   ***Menu Bar Styling***
  **********************************************************************/
@@ -109,6 +109,12 @@ a {
 .pfimg {
   width: 80%;
   height: 40em;
+}
+
+.italize {
+  font-family: italic;
+  font-weight: bolder;
+  color: magenta;
 }
 /***********************************************************************
                   ***Contact Form Styling ***
